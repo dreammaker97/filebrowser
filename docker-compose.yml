@@ -1,6 +1,6 @@
 version: "3"
 services:
-  name:
+  filebrowser:
     container_name: filebrowser
     image: hurlenko/filebrowser
     volumes:

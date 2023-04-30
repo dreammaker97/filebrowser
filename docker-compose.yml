@@ -4,7 +4,7 @@ services:
     container_name: filebrowser
     image: hurlenko/filebrowser
     volumes:
-      - ~/:/data
+      - /:/data
     ports:
       - "50000:8080"
     restart: always
